@@ -1,4 +1,4 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 /*
 | -------------------------------------------------------------------
 | SMILEYS
@@ -14,7 +14,7 @@
 
 $smileys = array(
 
-//	smiley			image name						width	height	alt
+	//	smiley			image name						width	height	alt
 
 	':-)'			=>	array('grin.gif',			'19',	'19',	'grin'),
 	':lol:'			=>	array('lol.gif',			'19',	'19',	'LOL'),
@@ -60,7 +60,7 @@ $smileys = array(
 	':exclaim:'		=>	array('exclaim.gif',		'19',	'19',	'excaim'),
 	':question:'	=>	array('question.gif',		'19',	'19',	'question') // no comma after last item
 
-		);
+);
 
 /* End of file smileys.php */
 /* Location: ./application/config/smileys.php */
