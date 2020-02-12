@@ -1,4 +1,5 @@
-<a href="<?= base_url('admin/jabatan_tambah/') ?>" class="btn btn-primary">Tambah</a>
+<!-- <a href="<?//= base_url('admin/jabatan_tambah/') ?>" class="btn btn-primary">Tambah</a> -->
+<button onclick="tampil()" class="btn btn-primary">Tambah</button>
 <br /><br /><br />
 <?= $this->session->flashdata('pesan') ?>
 <table id="example1" class="table table-bordered table-striped">
